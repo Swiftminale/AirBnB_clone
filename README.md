@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://github.com/Michaelndula/AirBnB_clone/blob/master/65f4a1dd9c51265f49d0.png?raw=true" alt="HolbertonBnB logo">
+  <img src="https://github.com/Michaelndula/AirBnB_clone/blob/master/65f4a1dd9c51265f49d0.png?raw=true" alt="AirBnB logo">
 </p>
 
-<h1 align="center">HolbertonBnB</h1>
+<h1 align="center">AirBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
 <p align="center">
-  <img src="https://github.com/HeimerR/AirBnB_clone/raw/master/images/pipeline.png" alt="HolbertonBnB logo">
+  <img src="https://github.com/HeimerR/AirBnB_clone/raw/master/images/pipeline.png" alt="AirBnB logo">
 </p>
 
 ---
 
 ## Description :house:
 
-HolbertonBnB is a complete web application, integrating database storage, 
+AirBnB is a complete web application, integrating database storage, 
 a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
 ## Classes :cl:
 
-HolbertonBnB utilizes the following classes:
+AirBnB utilizes the following classes:
 
 |     | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 | --- | --------- | ----------- | -----| ----- | -----| ------- | ----- | ------ |
@@ -34,7 +34,7 @@ HolbertonBnB utilizes the following classes:
 The above classes are handled by the abstracted storage engine defined in the 
 [FileStorage](./models/engine/file_storage.py) class.
 
-Every time the backend is initialized, HolbertonBnB instantiates an instance of 
+Every time the backend is initialized, AirBnB instantiates an instance of 
 `FileStorage` called `storage`. The `storage` object is loaded/re-loaded from 
 any class instances stored in the JSON file `file.json`. As class instances are 
 created, updated, or deleted, the `storage` object is used to register 
@@ -267,7 +267,7 @@ m', 'first_name': 'Holberton', 'updated_at': datetime.datetime(2019, 2, 17, 21,
 
 ## Testing :straight_ruler:
 
-Unittests for the HolbertonBnB project are defined in the [tests](./tests) 
+Unittests for the AirBnB project are defined in the [tests](./tests) 
 folder. To run the entire test suite simultaneously, execute the following command:
 
 ```
